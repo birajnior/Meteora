@@ -1,0 +1,40 @@
+@import url(peronalizado.css);
+
+.texto-menor {
+  font-size: 0.8125rem;
+}
+
+.divs-facilidades {
+  width: 325px;
+}
+
+.div-novidades {
+  width: 325px;
+}
+
+.color-bg-pr {
+  background-color: var(--color-background) !important;
+  color: #ffffff !important;
+}
+
+.btn-pdts-bombando {
+  background-color: var(--color-accent) !important;
+}
+
+.verde-limao {
+  color: var(--color-highlight);
+}
+
+.posicao {
+  top: 40%;
+}
+
+@media (min-width: 768px) {
+  .div-novidades {
+    width: 696px;
+  }
+
+  .posicao {
+    top: 60%;
+  }
+}

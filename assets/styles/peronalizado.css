@@ -1,0 +1,11 @@
+:root {
+  /* Paleta Primária */
+  --color-background: #000000;     /* Fundo principal */
+  --color-text: #CCCCCC;           /* Cor do texto */
+  --color-highlight: #DAFF01;      /* Cor de destaque */
+  --color-accent: #9353FF;         /* Cor de destaque secundário */
+
+  /* Paleta Complementar (para banners) */
+  --color-banner-primary: #EE6471; /* Cor principal dos banners */
+  --color-banner-secondary: #F87F46; /* Cor secundária dos banners */
+}
