@@ -1,4 +1,14 @@
-@import url(peronalizado.css);
+:root {
+  /* Paleta Primária */
+  --color-background: #000000; /* Fundo principal */
+  --color-text: #cccccc; /* Cor do texto */
+  --color-highlight: #daff01; /* Cor de destaque */
+  --color-accent: #9353ff; /* Cor de destaque secundário */
+
+  /* Paleta Complementar (para banners) */
+  --color-banner-primary: #ee6471; /* Cor principal dos banners */
+  --color-banner-secondary: #f87f46; /* Cor secundária dos banners */
+}
 
 .texto-menor {
   font-size: 0.8125rem;
@@ -17,7 +27,7 @@
   color: #ffffff !important;
 }
 
-.btn-pdts-bombando {
+.botao-lilas {
   background-color: var(--color-accent) !important;
 }
 
